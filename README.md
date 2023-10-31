@@ -16,14 +16,21 @@ in “hic_file/” folder. There are 300 Hi-C files in our folder. They are “1
 Required Hi-C format:
 Every file in the Hi-C folder should be in a fixed format as follows:
 
-chr1    1263291       chr1    23946470\n
-chr1    1482927       chr3    177964931\n
-chr1    1700468       chr1    37652412\n
-chr1    1722339       chr1    1842676 \n
-chr1    1756612       chr1    1767210 \n
-chr1    1767210       chr1    1767556 \n
-chr1    2165063       chr1    2257005 \n
-chr1    2996596       chr1    311331 \n
+chr1    1263291       chr1    23946470
+
+chr1    1482927       chr3    177964931
+
+chr1    1700468       chr1    37652412
+
+chr1    1722339       chr1    1842676 
+
+chr1    1756612       chr1    1767210 
+
+chr1    1767210       chr1    1767556 
+
+chr1    2165063       chr1    2257005 
+
+chr1    2996596       chr1    311331 
 
 
 Columns 1 and 3 are chromosomes, and columns 2 and 4 are positions. Chromosome names “1”, ”2,”…, and “X” will also be fine. You can put inter-chromosome Hi-C contacts in the file, but our program will only use intra-chromosome Hi-C contacts.
